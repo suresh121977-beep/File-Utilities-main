@@ -1,0 +1,8 @@
+[
+  {"menu": 1, "title": "All Media Studio", "project": "All-Media-Studio-GitHub-Project", "activity": "com.allmediastudio.app.MainActivity"},
+  {"menu": 2, "title": "File Explorer", "project": "FileExplorer", "activity": "com.example.files.MainActivity"},
+  {"menu": 3, "title": "File Manager Pro", "project": "FileManagerPro", "activity": "com.filemanager.app.MainActivity"},
+  {"menu": 4, "title": "Image Studio", "project": "ImageStudioAndroid", "activity": "com.example.imagestudio.MainActivity"},
+  {"menu": 5, "title": "YT Saver", "project": "YTSaver", "activity": "com.example.ytsaver.MainActivity"},
+  {"menu": 6, "title": "WebGrab", "project": "WebGrab", "activity": "com.example.webgrab.MainActivity"}
+]

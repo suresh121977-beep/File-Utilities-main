@@ -1,0 +1,71 @@
+{
+ "version": 1,
+ "apps": [
+  {
+   "name": "All-Media-Studio-GitHub-Project",
+   "type": "gradle",
+   "appDir": "app",
+   "mods": {
+    "app": "All_Media_Studio_GitHub_Project_app"
+   },
+   "pkg": "com.allmediastudio.app",
+   "activity": "com.allmediastudio.app.MainActivity",
+   "attrs": " android:allowBackup=\"true\" android:label=\"All Media Studio\" android:theme=\"@style/AppTheme\" android:usesCleartextTraffic=\"true\""
+  },
+  {
+   "name": "FileExplorer",
+   "type": "gradle",
+   "appDir": "app",
+   "mods": {
+    "app": "FileExplorer_app"
+   },
+   "pkg": "com.example.files",
+   "activity": "com.example.files.MainActivity",
+   "attrs": " android:label=\"File Explorer\" android:requestLegacyExternalStorage=\"true\"\n        android:theme=\"@android:style/Theme.Material.Light.NoActionBar\""
+  },
+  {
+   "name": "FileManagerPro",
+   "type": "gradle",
+   "appDir": "app",
+   "mods": {
+    "app": "FileManagerPro_app"
+   },
+   "pkg": "com.filemanager.app",
+   "activity": "com.filemanager.app.MainActivity",
+   "attrs": " android:label=\"@string/app_name\"\n        android:icon=\"@drawable/ic_launcher\"\n        android:theme=\"@style/Theme.FileManager\"\n        android:requestLegacyExternalStorage=\"true\"\n        android:allowBackup=\"false\""
+  },
+  {
+   "name": "ImageStudioAndroid",
+   "type": "gradle",
+   "appDir": "app",
+   "mods": {
+    "app": "ImageStudioAndroid_app"
+   },
+   "pkg": "com.example.imagestudio",
+   "activity": "com.example.imagestudio.MainActivity",
+   "attrs": " android:allowBackup=\"true\"\n        android:label=\"Image Studio\"\n        android:theme=\"@style/Theme.MaterialComponents.DayNight.NoActionBar\""
+  },
+  {
+   "name": "YTSaver",
+   "type": "gradle",
+   "appDir": "app",
+   "mods": {
+    "app": "YTSaver_app"
+   },
+   "pkg": "com.example.ytsaver",
+   "activity": "com.example.ytsaver.MainActivity",
+   "attrs": " android:label=\"YT Saver\"\n        android:extractNativeLibs=\"true\"\n        android:theme=\"@android:style/Theme.Material.Light.NoActionBar\""
+  },
+  {
+   "name": "WebGrab",
+   "type": "gradle",
+   "appDir": "app",
+   "mods": {
+    "app": "WebGrab_app"
+   },
+   "pkg": "com.example.webgrab",
+   "activity": "com.example.webgrab.MainActivity",
+   "attrs": " android:label=\"WebGrab\" android:usesCleartextTraffic=\"true\"\n        android:theme=\"@android:style/Theme.Material.Light.NoActionBar\""
+  }
+ ]
+}

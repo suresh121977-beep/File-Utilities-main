@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#222222"
+        android:scaleType="fitCenter" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+            <Button android:id="@+id/btnPick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pick photo" />
+            <Button android:id="@+id/btnRemove" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Remove BG" />
+            <Button android:id="@+id/btnBgColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BG color" />
+            <Button android:id="@+id/btnBgImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BG image" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+            <Button android:id="@+id/btnColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Color ▶" />
+            <Button android:id="@+id/btnDress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dress: OFF" />
+            <Button android:id="@+id/btnCartoon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cartoon" />
+            <Button android:id="@+id/btnSketch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sketch" />
+            <Button android:id="@+id/btnReset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reset" />
+            <Button android:id="@+id/btnSave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
